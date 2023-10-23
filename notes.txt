@@ -1,0 +1,11 @@
+create two separate folder for front-end and back-end
+
+run npm init -y to install json package for the project
+
+then install express and nodemon for the project
+
+create a dev dependency dev nodemon index.js  //it will run the index.js file when dev is executed
+
+install mongoose
+
+sigin into mongodb and create a connection throught the config file

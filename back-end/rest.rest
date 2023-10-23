@@ -1,0 +1,16 @@
+POST http://localhost:5555/books
+content-type: application/json
+
+{
+  "title":"REACT",
+   "author":"PROHARISH",
+    "publishYear":2024
+}
+
+###
+
+DELETE  http://localhost:5555/books/
+
+###
+
+GET  http://localhost:5555/books
