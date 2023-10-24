@@ -13,6 +13,12 @@ app.use(cors(
   }
 ));
 
+app.get('/favicon.ico', (req, res) => {
+  // You can serve a favicon file or send an appropriate response
+  // For example, you can send a 204 No Content response:
+  res.status(204).end();
+});
+
 app.get("/", (request, response) => {
   return response.status(234).send("MERN stack developer");
 });
