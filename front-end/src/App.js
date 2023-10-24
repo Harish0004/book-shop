@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const fetch = async () => {
       try {
-        const response = await axios.get("http://localhost:5555/books");
+        const response = await axios.get("http://book-shop-eta-pearl.vercel.app/books");
         const fetch_data = response.data.data;
         setBooks(fetch_data);
       } catch (err) {
