@@ -16,7 +16,7 @@ app.use(cors(
 app.get('/favicon.ico', (req, res) => {
   // You can serve a favicon file or send an appropriate response
   // For example, you can send a 204 No Content response:
-  res.status(204).end();
+  res.status(200).res("a");
 });
 
 app.get("/", (request, response) => {
