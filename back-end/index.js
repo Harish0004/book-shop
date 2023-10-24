@@ -7,7 +7,7 @@ import cors from "cors";
 
 app.use(cors(
   {
-     origin:["https://book-shop-eta-pearl.vercel.app"],
+     origin:[""],
     methods:["POST","GET","PUT","DELETE"],
     credentials:true
   }
