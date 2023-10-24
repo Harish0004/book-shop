@@ -5,7 +5,13 @@ import bookRoutes from "./routes/bookRoutes.js";
 const app = express();
 import cors from "cors";
 
-app.use(cors());
+app.use(cors(
+  {
+     origin:["https://book-shop-eta-pearl.vercel.app"],
+    methods:["POST","GET","PUT","DELETE"],
+    credentials:true
+  }
+));
 
 app.get("/", (request, response) => {
   return response.status(234).send("MERN stack developer");
