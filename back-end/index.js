@@ -35,7 +35,7 @@ app.use(express.json());
   })
 );  */
 
-app.use("/", bookRoutes);
+app.use(bookRoutes);
 
 /************************************ */
 
