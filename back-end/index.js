@@ -19,9 +19,9 @@ app.get('/favicon.ico', (req, res) => {
   res.status(200).res("a");
 });
 
-app.get("/", (request, response) => {
+/* app.get("/", (request, response) => {
   return response.status(234).send("MERN stack developer");
-});
+}); */
 
 app.use(express.json());
 
